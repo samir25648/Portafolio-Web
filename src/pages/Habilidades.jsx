@@ -2,13 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const imagenes = [
-    { title: 'HTML', src: '/src/assets/images/html.png' },
-    { title: 'CSS', src: '/src/assets/images/css.png' },
-    { title: 'JavaScript', src: '/src/assets/images/js.png' },
-    { title: 'React', src: '/src/assets/images/react.png' },
-    { title: 'Tailwind', src: '/src/assets/images/tailwind.png' },
-    { title: 'Figma', src: '/src/assets/images/figma.png' },
-    { title: 'WordPress', src: '/src/assets/images/wordpress.png' },
+    { title: 'HTML', src: '/assets/images/html.png' },
+    { title: 'CSS', src: '/assets/images/css.png' },
+    { title: 'JavaScript', src: '/assets/images/js.png' },
+    { title: 'React', src: '/assets/images/react.png' },
+    { title: 'Tailwind', src: '/assets/images/tailwind.png' },
+    { title: 'Figma', src: '/assets/images/figma.png' },
+    { title: 'WordPress', src: '/assets/images/wordpress.png' },
 ];
 
 const Habilidades = () => {

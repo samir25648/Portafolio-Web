@@ -4,27 +4,27 @@ import ButtonIcon from '../components/ButtonIcon';
 const proyectos = [
   {
     title: 'Portafolio Web Personal',
-    img: '/src/assets/images/proyecto-1.png',
+    img: '/assets/images/proyecto-1.png',
     description: 'Desarrollé un portafolio que destaca las tecnologías que domino, utilizando Tailwind CSS para crear una interfaz moderna y responsiva. Este proyecto refleja mi enfoque en la calidad y la innovación en el diseño web.',
-    techIcons: ['/src/assets/images/react.png', '/src/assets/images/tailwind.png'],
+    techIcons: ['/assets/images/react.png', '/assets/images/tailwind.png'],
   },
   {
     title: 'Portafolio Web Personal',
-    img: '/src/assets/images/proyecto-1.png',
+    img: '/assets/images/proyecto-1.png',
     description: 'Desarrollé un portafolio que destaca las tecnologías que domino, utilizando Tailwind CSS para crear una interfaz moderna y responsiva. Este proyecto refleja mi enfoque en la calidad y la innovación en el diseño web.',
-    techIcons: ['/src/assets/images/react.png', '/src/assets/images/tailwind.png'],
+    techIcons: ['/assets/images/react.png', '/assets/images/tailwind.png'],
   },
   {
     title: 'Portafolio Web Personal',
-    img: '/src/assets/images/proyecto-1.png',
+    img: '/assets/images/proyecto-1.png',
     description: 'Desarrollé un portafolio que destaca las tecnologías que domino, utilizando Tailwind CSS para crear una interfaz moderna y responsiva. Este proyecto refleja mi enfoque en la calidad y la innovación en el diseño web.',
-    techIcons: ['/src/assets/images/react.png', '/src/assets/images/tailwind.png'],
+    techIcons: ['/assets/images/react.png', '/assets/images/tailwind.png'],
   },
   {
     title: 'Portafolio Web Personal',
-    img: '/src/assets/images/proyecto-1.png',
+    img: '/assets/images/proyecto-1.png',
     description: 'Desarrollé un portafolio que destaca las tecnologías que domino, utilizando Tailwind CSS para crear una interfaz moderna y responsiva. Este proyecto refleja mi enfoque en la calidad y la innovación en el diseño web.',
-    techIcons: ['/src/assets/images/react.png', '/src/assets/images/tailwind.png'],
+    techIcons: ['/assets/images/react.png', '/assets/images/tailwind.png'],
   },
 ];
 
@@ -59,12 +59,12 @@ const Proyectos = () => {
                   </div>
 
                   <div className='flex justify-center'>
-                    <ButtonIcon imgSrc="/src/assets/images/github-black.png" imgAlt="github-black" title="Código" className="mr-2" /> 
-                    <ButtonIcon imgSrc="/src/assets/images/enlace.png" imgAlt="enlace" title="Demo" className="ml-2" /> 
+                    <ButtonIcon imgSrc="/assets/images/github-black.png" imgAlt="github-black" title="Código" className="mr-2" url="https://github.com/samir25648/Portafolio-Web"/> 
+                    <ButtonIcon imgSrc="/assets/images/enlace.png" imgAlt="enlace" title="Demo" className="ml-2" url="https://portafolio-samir.netlify.app"/> 
                   </div>
                 </div>
               </div>
-            ))}
+            ))} 
           </div>
         </div>
       </section>
